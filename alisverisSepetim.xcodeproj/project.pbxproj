@@ -11,6 +11,10 @@
 		66218DD125C0A9A70000A84F /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66218DD025C0A9A70000A84F /* ProductTableViewController.swift */; };
 		66218DD625C0BCC70000A84F /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66218DD525C0BCC70000A84F /* ProductCell.swift */; };
 		662691D125C2245E00FDC880 /* shoppingAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 662691D025C2245E00FDC880 /* shoppingAnimation.json */; };
+		66D12E0F25C3554B008E3460 /* basarılıUrunEkleme.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66D12E0B25C3554A008E3460 /* basarılıUrunEkleme.gif */; };
+		66D12E1025C3554B008E3460 /* hataMesaji.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66D12E0C25C3554A008E3460 /* hataMesaji.gif */; };
+		66D12E1125C3554B008E3460 /* urunlerinTumunuSilme.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66D12E0D25C3554A008E3460 /* urunlerinTumunuSilme.gif */; };
+		66D12E1225C3554B008E3460 /* urunleriTekerTekerSilme.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66D12E0E25C3554A008E3460 /* urunleriTekerTekerSilme.gif */; };
 		66D873A025BC4CE300ADA768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D8739F25BC4CE300ADA768 /* AppDelegate.swift */; };
 		66D873A225BC4CE300ADA768 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D873A125BC4CE300ADA768 /* SceneDelegate.swift */; };
 		66D873A425BC4CE300ADA768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D873A325BC4CE300ADA768 /* ViewController.swift */; };
@@ -27,6 +31,10 @@
 		66218DD025C0A9A70000A84F /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 		66218DD525C0BCC70000A84F /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		662691D025C2245E00FDC880 /* shoppingAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shoppingAnimation.json; sourceTree = "<group>"; };
+		66D12E0B25C3554A008E3460 /* basarılıUrunEkleme.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "basarılıUrunEkleme.gif"; sourceTree = "<group>"; };
+		66D12E0C25C3554A008E3460 /* hataMesaji.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hataMesaji.gif; sourceTree = "<group>"; };
+		66D12E0D25C3554A008E3460 /* urunlerinTumunuSilme.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = urunlerinTumunuSilme.gif; sourceTree = "<group>"; };
+		66D12E0E25C3554A008E3460 /* urunleriTekerTekerSilme.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = urunleriTekerTekerSilme.gif; sourceTree = "<group>"; };
 		66D8739C25BC4CE300ADA768 /* alisverisSepetim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = alisverisSepetim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66D8739F25BC4CE300ADA768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66D873A125BC4CE300ADA768 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,12 +76,24 @@
 			path = Animations;
 			sourceTree = "<group>";
 		};
+		66D12DF925C35537008E3460 /* Gifs */ = {
+			isa = PBXGroup;
+			children = (
+				66D12E0B25C3554A008E3460 /* basarılıUrunEkleme.gif */,
+				66D12E0C25C3554A008E3460 /* hataMesaji.gif */,
+				66D12E0D25C3554A008E3460 /* urunlerinTumunuSilme.gif */,
+				66D12E0E25C3554A008E3460 /* urunleriTekerTekerSilme.gif */,
+			);
+			path = Gifs;
+			sourceTree = "<group>";
+		};
 		66D8739325BC4CE300ADA768 = {
 			isa = PBXGroup;
 			children = (
 				66D8739E25BC4CE300ADA768 /* alisverisSepetim */,
 				66D8739D25BC4CE300ADA768 /* Products */,
 				E07CA69EBD5327A3B4D87296 /* Pods */,
+				66D12DF925C35537008E3460 /* Gifs */,
 				21BDEC974C7A714342DD5641 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -181,11 +201,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D12E1125C3554B008E3460 /* urunlerinTumunuSilme.gif in Resources */,
 				662691D125C2245E00FDC880 /* shoppingAnimation.json in Resources */,
 				66D873AC25BC4CE600ADA768 /* LaunchScreen.storyboard in Resources */,
 				66D873BF25BC54C700ADA768 /* Comfortaa-VariableFont_wght.ttf in Resources */,
 				66D873A925BC4CE600ADA768 /* Assets.xcassets in Resources */,
+				66D12E1025C3554B008E3460 /* hataMesaji.gif in Resources */,
+				66D12E0F25C3554B008E3460 /* basarılıUrunEkleme.gif in Resources */,
 				66D873A725BC4CE300ADA768 /* Main.storyboard in Resources */,
+				66D12E1225C3554B008E3460 /* urunleriTekerTekerSilme.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
